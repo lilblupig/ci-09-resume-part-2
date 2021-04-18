@@ -1,45 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Resume Project - Part 2**
 
-Welcome lilblupig,
+# Overview
+Code along project to add interactivity to previous Resume project for Rosie Odenkirk using JavaScript, jQuery and utilising APIs.  CI added two pages to the previous project;
+* Interests - this was used to work with the Google Maps API
+* GitHub - which was used to work with the GitHub API
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Email JS was also used to provide actual email response from the Contact Us form.
 
-## Gitpod Reminders
+![Am I Responsive Image](assets/readme-images/am-i-responsive.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Index
+1. [UX](#ux)
+1. [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features for Future Implementation](#features-for-future-implementation)
+1. [Technologies Used](#technologies-used)
+1. [Credits](#credits)
+    * [Website](#website-credits)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## UX
 
-Another blue button should appear to click: _Open Browser_.
+### **Overview and Broad Design Choices**
+The UX design for the project would have been undertaken by the Code Institute team.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: _Make Public_,
+### **Existing Features**
+Features common to all pages/sections:
+* Responsive nav and footer.
+* All pages fully responsive to device size and scale accordingly.
+* All interactive elements show hover/click functionality.
 
-Another blue button should appear to click: _Open Browser_.
+### **Features for Future Implementation**
+1. Add success/failure message for user on submit of contact form | At the moment the email is sent, but the page gives no indication of such to the user.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Technologies Used
 
-## Updates Since The Instructional Video
+### **Languages**
+* HTML5 is used to provide the basic structure of the website.
+  * About: [HTML5 Wiki](https://en.wikipedia.org/wiki/HTML5)
+  * Creator: [W3 Consortium](https://www.w3.org/)
+* CSS3 is used to provide most of the styling for the website.
+  * About: [CSS3 Wiki](https://en.wikipedia.org/wiki/CSS)
+  * Creator: [W3 Consortium](https://www.w3.org/)
+* JavaScript is used to provide the interactive nature of such components throughout the website.
+  * About: [JavaScript Home](https://www.javascript.com/)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### **Libraries and Frameworks**
+* [Bootstrap 5](https://getbootstrap.com/) is used to provide the grid functionality for uniform design, responsiveness and to enable the use of modal and hamburger menu.
+* [jQuery](https://jquery.com/) is used to simplify the implementation of interactive JavaScript components.
+* [Google Fonts](https://fonts.google.com/) are used to provide the typography for the website.
+* [Font Awesome](https://fontawesome.com/) is used to provide the icons for the website.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### **Tools**
+* [Git](https://git-scm.com/)/[GitHub](https://github.com/) were used for version control and repository storage.
+* [GitPod](https://www.gitpod.io/) was the IDE used to write the project.
+* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) were used for specific responsiveness testing and drilling down into bug fixing.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### **Other Resources**
+* [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used to set up the repository.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Credits
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### **Website Credits**
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Content
+All content, including site images, provided by Code Institute.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Media
+The images for this README are from the following sources:
+* Snips taken from GitHub.
+* [Am I Responsive](http://ami.responsivedesign.is/).
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Other
+* Markdown basic taken from [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
 
----
+**This website was produced as an educational project for the Code Institute Full Stack Development course.**
 
-Happy coding!
+**Created by Amy Hacker.**
+
+[Back to Top](#resume-project---part-2)
